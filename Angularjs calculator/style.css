@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(238, 238, 238);
+}
+
+input{
+  display: block;
+  width: 50%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid blue;
+  border-radius: 10px;
+  
+}
+
+h6{
+  margin-top: 25px;
+}
+h1{
+  transition: transform 500ms ease;
+}
+h1:hover{
+  transform: scale(1.05);
+}
+
+h3{
+  transition: transform 500ms ease;
+  color: #6d6b6b;
+}
+h3:hover{
+  transform: scale(1.05);
+}
+
+h6{
+  transition: transform 500ms ease;
+}
+h6:hover{
+  transform: scale(1.05);
+}
+
+button{
+  transition: transform 500ms ease;
+  margin-left: 10px;
+}
+button:hover{
+  transform: scale(1.10);
+}
